@@ -93,7 +93,7 @@ class MyApp extends StatelessWidget {
                         height: 80,
                         decoration: const BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.blue,
+                          color: Colors.grey,
                         ),
                       ),
                       Container(
@@ -101,7 +101,7 @@ class MyApp extends StatelessWidget {
                         height: 80,
                         decoration: const BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.red,
+                          color: Colors.grey,
                         ),
                       ),
                       Container(
@@ -109,7 +109,7 @@ class MyApp extends StatelessWidget {
                         height: 80,
                         decoration: const BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.yellow,
+                          color: Colors.grey,
                         ),
                       ),
                       Container(
@@ -117,7 +117,7 @@ class MyApp extends StatelessWidget {
                         height: 80,
                         decoration: const BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.green,
+                          color: Colors.grey,
                         ),
                       ),
                     ],
@@ -131,7 +131,8 @@ class MyApp extends StatelessWidget {
                   children: [
                     Text(
                       'Frequently visited',
-                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                      style:
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                     )
                   ],
                 ),
@@ -150,8 +151,12 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Container(
+                                width: 200,
                                 height: 200,
-                                color: Colors.red,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20),
+                                  color: const Color(0xFFD3D3D3),
+                                ),
                               ),
                               const SizedBox(
                                 height: 6,
@@ -174,7 +179,7 @@ class MyApp extends StatelessWidget {
                               const SizedBox(
                                 height: 4,
                               ),
-                              Text(
+                              const Text(
                                 'IDR 235.000',
                                 style: TextStyle(
                                     fontSize: 14, fontWeight: FontWeight.w500),
@@ -194,8 +199,12 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Container(
+                                width: 200,
                                 height: 200,
-                                color: Colors.blue,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20),
+                                  color: const Color(0xFFD3D3D3),
+                                ),
                               ),
                               const SizedBox(
                                 height: 6,
@@ -238,7 +247,8 @@ class MyApp extends StatelessWidget {
                   children: [
                     Text(
                       'On Budget Tour',
-                      style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                      style:
+                          TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                     ),
                     Text(
                       'See more',
@@ -263,7 +273,7 @@ class MyApp extends StatelessWidget {
                               Container(
                                 height: 80,
                                 width: 80,
-                                color: Colors.purple,
+                                color: Colors.grey,
                               ),
                               const SizedBox(
                                 width: 4,
@@ -324,7 +334,7 @@ class MyApp extends StatelessWidget {
                               Container(
                                 height: 80,
                                 width: 80,
-                                color: Colors.cyan,
+                                color: Colors.grey,
                               ),
                               const SizedBox(
                                 width: 4,
