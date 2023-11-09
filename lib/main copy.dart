@@ -124,7 +124,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(
-                  height: 12,
+                  height: 8,
                 ),
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -136,7 +136,7 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(
-                  height: 12,
+                  height: 8,
                 ),
                 Container(
                   child: Row(
@@ -231,7 +231,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(
-                  height: 12,
+                  height: 8,
                 ),
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
